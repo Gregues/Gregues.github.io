@@ -11,8 +11,8 @@
 
 
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--bg-color, #ffffff);
+    color: var(--text-color, #444444);
     transition: 0.3s; /* Suaviza a troca de cor */
     margin: 40px auto;
     max-width: 650px;
