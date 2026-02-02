@@ -3,16 +3,12 @@
   --text-color: #444444;
 }
 
+
 [data-theme="dark"] {
   --bg-color: #1a1a1a;
   --text-color: #f0f0f0;
 }
 
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: 0.3s; /* Suaviza a troca de cor */
-}
 
 body {
     margin: 40px auto;
