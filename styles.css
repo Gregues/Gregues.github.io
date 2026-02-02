@@ -1,25 +1,27 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #444444;
+  --header-color: #000000;
 }
-
 
 [data-theme="dark"] {
   --bg-color: #1a1a1a;
-  --text-color: #f0f0f0;
+  --text-color: #e0e0e0;
+  --header-color: #ffffff;
 }
 
-
+/* 2. Aplicação das Cores */
 body {
-    background-color: var(--bg-color, #ffffff);
-    color: var(--text-color, #444444);
-    transition: 0.3s; /* Suaviza a troca de cor */
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
     font-family: Arial, sans-serif;
     font-size: 18px;
-    padding: 0 10px; 
+    padding: 0 10px;
+    /* Aqui está a mágica: */
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 header h1::before {
