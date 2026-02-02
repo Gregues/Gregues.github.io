@@ -11,17 +11,15 @@
 
 
 body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s; /* Suaviza a troca de cor */
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
     font-family: Arial, sans-serif;
     font-size: 18px;
-    padding: 0 10px;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: 0.3s; /* Suaviza a troca de cor */
-    
-
+    padding: 0 10px; 
 }
 
 header h1::before {
