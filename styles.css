@@ -29,7 +29,7 @@ header h1::before {
     display: inline-block;
     width: 32px; /* Adjust the width of the icon */
     height: 32px; /* Adjust the height of the icon */
-    background: url('https://cdn-icons-png.flaticon.com/512/6025/6025628.png') no-repeat; /* Use the favicon as background */
+    background: url('https://cdn-icons-png.flaticon.com/512/1778/1778568.png') no-repeat; /* Use the favicon as background */
     background-size: cover; /* Cover the entire icon area */
 }
 
@@ -38,7 +38,7 @@ header h1::after {
     display: inline-block;
     width: 32px; /* Adjust the width of the icon */
     height: 32px; /* Adjust the height of the icon */
-    background: url('https://cdn-icons-png.flaticon.com/512/6025/6025628.png') no-repeat; /* Use the favicon as background */
+    background: url('https://cdn-icons-png.flaticon.com/512/1778/1778568.png') no-repeat; /* Use the favicon as background */
     background-size: cover; /* Cover the entire icon area */
 }
 
